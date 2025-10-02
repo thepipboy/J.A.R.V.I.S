@@ -20,7 +20,7 @@ import static org.lwjgl.system.MemoryUtil.*;
  */
 public class MinecraftClone {
     
-    // ==================== ENUMS ====================
+    // ENUMS
     
     public enum BlockType {
         AIR(0, false, false),
@@ -59,7 +59,7 @@ public class MinecraftClone {
         TOP, BOTTOM, NORTH, SOUTH, EAST, WEST
     }
     
-    // ==================== BLOCK CLASS ====================
+    // BLOCK CLASS
     
     public static class Block {
         private BlockType type;
@@ -98,7 +98,7 @@ public class MinecraftClone {
         }
     }
     
-    // ==================== CHUNK CLASS ====================
+    // CHUNK CLASS
     
     public static class Chunk {
         public static final int CHUNK_SIZE = 16;
@@ -256,7 +256,7 @@ public class MinecraftClone {
         public int getChunkZ() { return chunkZ; }
     }
     
-    // ==================== WORLD CLASS ====================
+    // WORLD CLASS
     
     public static class World {
         private static World instance;
@@ -356,7 +356,7 @@ public class MinecraftClone {
         }
     }
     
-    // ==================== RAYCAST HIT ====================
+    // RAYCAST HIT
     
     public static class RaycastHit {
         private Block block;
@@ -378,7 +378,7 @@ public class MinecraftClone {
         public Vector3f getHitPoint() { return hitPoint; }
     }
     
-    // ==================== PLAYER CLASS ====================
+    // PLAYER CLASS
     
     public static class Player {
         private Vector3f position;
@@ -532,7 +532,7 @@ public class MinecraftClone {
         }
     }
     
-    // ==================== INPUT HANDLER ====================
+    // INPUT HANDLER
     
     public static class InputHandler {
         private boolean[] keys;
@@ -606,7 +606,7 @@ public class MinecraftClone {
         }
     }
     
-    // ==================== WINDOW CLASS ====================
+    // WINDOW CLASS
     
     public static class Window {
         private long windowHandle;
@@ -1022,7 +1022,7 @@ public class MinecraftClone {
         }
     }
     
-    // ==================== MAIN METHOD ====================
+    // MAIN METHOD
     
     public static void main(String[] args) {
         System.out.println("Starting Minecraft Clone...");
