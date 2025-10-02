@@ -1,8 +1,7 @@
-// ==================== CUBIC CHUNKS MOD ====================
-
-/**
- * CubicChunks mod - Implements cubic chunks instead of vertical columns
- * Allows for infinite world height and depth
+// CUBIC CHUNKS MOD
+/*
+  CubicChunks mod - Implements cubic chunks instead of vertical columns
+  Allows for infinite world height and depth
  */
 public static class CubicChunksMod {
     private static final int CUBIC_CHUNK_SIZE = 16;
