@@ -1,5 +1,5 @@
 
-// ==================== MODIFIED GAME ENGINE WITH MODS ====================
+// MODIFIED GAME ENGINE WITH MODS
 
 public static class ModdedGameEngine extends GameEngine {
     private CubicChunksMod cubicChunksMod;
@@ -76,7 +76,7 @@ public static class ModdedGameEngine extends GameEngine {
     public ContainMod getContainMod() { return containMod; }
 }
 
-// ==================== UPDATED MAIN METHOD ====================
+// UPDATED MAIN METHOD 
 
 public static void main(String[] args) {
     System.out.println("Starting Minecraft Clone with Mods...");
