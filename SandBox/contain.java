@@ -1,8 +1,8 @@
-// ==================== CONTAIN MOD ====================
+// CONTAIN MOD 
 
-/**
- * Contain mod - Adds containers, inventories, and storage systems
- * Includes chests, barrels, and portable storage items
+/*
+  Contain mod - Adds containers, inventories, and storage systems
+  Includes chests, barrels, and portable storage items
  */
 public static class ContainMod {
     private Map<String, Container> containers;
